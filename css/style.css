@@ -1,0 +1,46 @@
+/* Estilos personalizados si son necesarios */
+body {
+    padding-top: 56px; /* Ajuste para el navbar fijo si se usa */
+}
+
+#footer {
+    position: relative; /* O fixed/absolute si se prefiere un footer fijo */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos modernos añadidos */
+body {
+    background-color: #f8f9fa; /* Fondo gris claro */
+}
+
+.navbar {
+    margin-bottom: 1.5rem; /* Espacio debajo de la barra de navegación */
+}
+
+main {
+    min-height: calc(100vh - 150px); /* Ajustar según altura de header/footer */
+}
+
+.table {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra sutil para tablas */
+    background-color: #ffffff; /* Fondo blanco para tablas */
+}
+
+.modal-header {
+    border-bottom: none; /* Quitar borde de cabeceras de modales */
+}
+
+.btn-primary {
+    background-color: #0d6efd; /* Primario estándar de Bootstrap */
+    border-color: #0d6efd;
+}
+
+.btn-warning {
+    color: #000; /* Asegurar legibilidad en amarillo */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Peligro estándar de Bootstrap */
+    border-color: #dc3545;
+}
